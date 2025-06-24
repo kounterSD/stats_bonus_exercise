@@ -121,7 +121,13 @@ def analyze_and_plot_weighted(file_path, city_name):
     plt.xlabel('Avg_Temp')
     plt.ylabel('SCORE')
 
-
+    # SCORE Over Time line plot
+    plt.subplot(3,2,6)
+    sns.scatterplot(x='Date', y='SCORE', size='N',sizes=(10, 200), alpha=0.5, data=df, marker='o', color='purple')
+    plt.title(f'{city_name} - Sentiment Score Over Time')
+    plt.xlabel('Date')
+    plt.ylabel('SCORE')
+    plt.xticks(rotation=45)
     plt.tight_layout()
     plt.show()
 
