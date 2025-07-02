@@ -13,6 +13,12 @@
 `python3 main.py`
 
 ## Calculations
+<img width="479" alt="Screenshot 2025-07-02 at 2 35 04 PM" src="https://github.com/user-attachments/assets/45aacd6a-067d-4a0e-8dca-facb2b93d506" />
+
+We use the number of tweets as weights/frequency for each data point. More tweets = More Influence.
+
+
+
 
 ### Weighted Mean
 <img width="150" alt="Screenshot 2025-07-02 at 2 18 41 PM" src="https://github.com/user-attachments/assets/ecf98dad-bce0-48f1-b698-434271ec3480" />
